@@ -6,7 +6,7 @@ class Dictionary {
   }
 
   _getMaps() {
-    return Object.keys(this.maps).map(key => {
+    return Object.keys(this).map(key => {
       return {text: key, value: key}
     });
   }
@@ -94,7 +94,7 @@ class Dictionary {
         }
       ],
       menus: {
-        MAPS: this._getMaps
+        MAPS: this._getMaps.bind(this.maps)
       }
     }
   }
