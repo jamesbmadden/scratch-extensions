@@ -96,7 +96,7 @@ class Dictionary {
         }
       ],
       menus: {
-        MAPS: this._getMaps()
+        MAPS: this._getMaps
       }
     }
   }
