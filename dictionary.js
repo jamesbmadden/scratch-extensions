@@ -3,9 +3,6 @@ class Dictionary {
 
   constructor() {
     this.maps = {'my dictionary':{'hello':'world'}};
-    addEventListener('message', event => {
-      console.log(event);
-    });
   }
 
   _getMaps() {
