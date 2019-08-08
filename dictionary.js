@@ -8,9 +8,12 @@ class Dictionary {
   }
 
   _getMaps() {
-    return Object.keys(this.maps).map(key => {
-      return {text: key, value: key}
-    });
+    return {
+      items: Object.keys(this.maps).map(key => {
+        return {text: key, value: key}
+      }),
+      acceptReporters: true
+    }
   }
 
   getInfo() {
