@@ -21,9 +21,9 @@ class Dictionary {
       id: 'dictionary',
       name: 'Dictionary',
 
-      colour: '#ef5350',
-      colourSecondary: '#f44336',
-      colourTertiary: '#e53935',
+      color1: '#ef5350',
+      color2: '#f44336',
+      color3: '#e53935',
 
       menuIconURI: icon,
       blockIconURI: icon,
